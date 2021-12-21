@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Island+Moments&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="music">
+      <source src="./sound/sing.mp3" type="audio/mp3" />
+    </audio>
+    <div class="snow-globe">
+      <h1>God jul!</h1>
+      <div class="globe-wrapper">
+        <div class="globe">
+          <div class="globe-inner">
+            <!--This is where we create all the flakes-->
+          </div>
+        </div>
+      </div>
+
+      <div class="base">
+        <div class="base-top">
+          <div class="plate-top"></div>
+          <div class="plate-sides"></div>
+          <div class="plate-bottom"></div>
+        </div>
+        <div class="base-bottom">
+          <div class="plate-top"></div>
+          <div class="plate-sides">
+            <label class="switch">
+              <input type="checkbox" name="globe-switch" id="globe-switch" />
+              <span class="button round"></span>
+            </label>
+          </div>
+          <div class="plate-bottom"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
