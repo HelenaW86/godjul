@@ -3,8 +3,8 @@ const snowMax = 800; // how much snow
 const snowColor = ["#DDD", "#EEE", "pink", "#D4F1F9"]; // a list of flake colors
 const snowShape = "❄"; // a bullet point. try switching to emoji
 const snowSpeed = 0.3; // how fast it falls
-const snowMinSize = 10; // minimum snow flake size
-const snowMaxSize = 25; // maximum snow flake size
+const snowMinSize = 5; // minimum snow flake size
+const snowMaxSize = 20; // maximum snow flake size
 
 // starting values, reset
 let snow = [],
